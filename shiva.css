@@ -1,38 +1,124 @@
+*{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+}
+
 body{
-        padding: 0%;
-        margin: 0%;
-        back
+        background-image: url(image3.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 100vh;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 700;
+        font-size: 16px;
+}
+
+a{
+        text-decoration: none;
+        color: white;
+}
+
+header{
+        display: flex;
+        flex-wrap: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 70px;
+        background-image: linear-gradient(rgb(45, 192, 45),rgb(70, 116, 134));
+}
+.logo-image{
+        border-radius: 5px;
+}
+.nav-area{
+        list-style: none;
+}
+
+.nav-area li{
+        display: inline-block;
+        padding: 0px 15px;
+        text-transform: uppercase;   
+}
+.nav-area li a{
+        color: white;
+}
+.nav-area li a:hover{
+        color: salmon;
+        transition: 0.5s;
+}
+.btn-area{
+        max-width: 200px;
+        cursor: pointer;
+        color: rgb(59, 89, 189);
+        font-size: 16px;
+        letter-spacing: 1px;
+        padding: 10px 30px;
+        border-radius: 20px;
+        background-color: white;
+        font-weight: 800;
        
 }
-h1{    
+.btn-area:hover{
+        background-color: salmon;
+        color: white;
+        transition: 0.5s;
+}
+section h1{
+        color:white;
+        background-color: red;
+        position: relative;
+        top: 10px;
+        padding: 10px;
         text-align: center;
-        background-repeat: repeat-x;
-        margin-top: 0px;
 }
 
 .parent{
-        min-height: 50px;
         display: flex;
+       flex-wrap: wrap;
+        position: relative;
+        top: 40px;
         flex-direction: row;
-        width: 100%;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        
+        justify-content: center;
+
 
 }
 .child{
-        background-color: #691a5f;
-        border: 2px solid red;
+        width: 200px;
+        height: 250px;
+        border: 2px solid salmon;
+        padding: 10px;
+        margin: 10px 30px;
+        background-image: linear-gradient( rgb(131, 78, 78),salmon);
         color: white;
+        border-radius: 10px;
+        opacity: 80%;
+        transition: 0.5s;
 }
 
-.child a{
+.child:hover{
+        opacity: 2000%;
+}
+
+.footer{
         color: white;
-        text-decoration: none;
+        position: relative;
+        top:60px;
+        background-color: red;
+        padding: 10px;
+        text-align: center;
+        max-width: 500px;
+        margin: 0px auto;
 }
-.head{
-        flex-grow: 3;
-}
-.one .two .three{
-        flex-grow: 1;
+
+.para{
+        position: relative;
+        top: 60px;
+        margin: 10px;
+        background-color: skyblue;
+        padding: 10px;
+        color: blue;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 400;
+        line-height: 20px;
+     
 }
