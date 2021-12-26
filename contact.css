@@ -1,0 +1,26 @@
+h1{
+        background-color: salmon;
+        color: white;
+        text-align: center;
+        padding: 15px;
+}
+
+table{
+        position: relative;
+        background-color: skyblue;
+        display: block;
+        padding: 10px;
+}
+th{
+        text-align: left;
+}
+
+address{
+        margin-top: 10px;
+        background-color:blueviolet;
+        font-weight: 600;
+        color: whitesmoke;
+        padding: 10px 10px 10px 20px;
+        display: inline-block;
+}
+
